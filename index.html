@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
+<style>
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.activeImage{
+    cursor: pointer;
+    height: 33px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.activeImage:hover{
+    cursor: pointer;
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}
+</style>
 <body>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
+<div style="width: 581px; height: 742px; margin:auto;  position: absolute;  top: 0; left: 0; bottom: 0; right: 0;">
+    <img src="1.JPG"/>
+    <a href="http://www.tut.by" id="updatedRoom"><img src="360_icon.png" style=" position: absolute;  top: 140px; left: 95px;" class="activeImage"/></a>
+    <a href="http://www.tut.by" id="smallRoom"><img src="360_icon.png" style=" position: absolute;  top: 480px; left: 95px;" class="activeImage"/></a>
+    <a href="http://www.tut.by" id="centralRoom"><img src="360_icon.png" style=" position: absolute;  top: 530px; left: 240px;" class="activeImage"/></a>
+    <a href="http://www.tut.by" id="corridor"><img src="eye.png" style=" position: absolute;  top: 380px; left: 470px;" class="activeImage"/></a>
+    <a href="http://www.tut.by" id="bath"><img src="eye.png" style=" position: absolute;  top: 440px; left: 405px;" class="activeImage"/></a>
+    <a href="http://www.tut.by" id="kitchen"><img src="eye.png" style=" position: absolute;  top: 540px; left: 370px;" class="activeImage"/></a>
+</div>
 
 </body>
 </html>
