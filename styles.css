@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*IE is IE*/
+a, img {
+    border:none;
+}
+
+.centeredImage {
+    margin:auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#mainImage {
+    width: 581px;
+    height: 742px;
+}
+
+.activeImage {
+    cursor: pointer;
+    height: 33px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+    .activeImage:hover {
+        cursor: pointer;
+        transform: scale(1.5);
+        -ms-transform: scale(1.5); /* IE 9 */
+        -moz-transform: scale(1.5); /* Firefox */
+        -webkit-transform: scale(1.5); /* Safari and Chrome */
+        -o-transform: scale(1.5); /* Opera */
+    }

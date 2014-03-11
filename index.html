@@ -3,52 +3,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>План квартиры</title>
-    <style>
-        html, body {
-            height: 100%;
-            padding: 0px;
-            margin: 0px;
-        }
-
-        /*IE is IE*/
-        a, img {
-            border:none;
-        }
-
-        .activeImage {
-            cursor: pointer;
-            height: 33px;
-            -webkit-transition: all 0.3s ease;
-            -moz-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            -ms-transition: all 0.3s ease;
-            transition: all 0.3s ease;
-        }
-
-            .activeImage:hover {
-                cursor: pointer;
-                transform: scale(1.5);
-                -ms-transform: scale(1.5); /* IE 9 */
-                -moz-transform: scale(1.5); /* Firefox */
-                -webkit-transform: scale(1.5); /* Safari and Chrome */
-                -o-transform: scale(1.5); /* Opera */
-            }
-    </style>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
 <body>
 
-<div style="width: 581px; height: 742px; margin:auto;  position: absolute;  top: 0; left: 0; bottom: 0; right: 0;">
-    <img src="photo/1.jpg"/>
-    <a href="http://photosynth.net/preview/view/79027d31-35a5-4488-9b17-ddb88374dc59" id="updatedRoom" title="Панорама комнаты с евроремонтом"><img src="360_icon.png" style=" position: absolute;  top: 138px; left: 90px; height: 38px;" class="activeImage" /></a>
-    <a href="http://photosynth.net/preview/view/3bc888a1-1a7b-4679-87a9-68c875fb4fa6" id="smallRoom" title="Панорама комнаты"><img src="360_icon.png" style=" position: absolute;  top: 480px; left: 95px;" class="activeImage" /></a>
-    <a href="http://photosynth.net/preview/view/ec8c8973-3af0-490a-82e0-374998fcf8e6" id="centralRoom" title="Панорама центральной комнаты"><img src="360_icon.png" style=" position: absolute;  top: 530px; left: 240px;" class="activeImage" /></a>
-    <a href="photo/corridor.jpg" id="corridor" title="Коридор"><img src="eye.png" style=" position: absolute;  top: 380px; left: 470px;" class="activeImage"/></a>
-    <a href="photo/bath.jpg" id="bath" title="Санузел"><img src="eye.png" style=" position: absolute;  top: 440px; left: 405px;" class="activeImage"/></a>
-    <a href="photo/kitchen.jpg" id="kitchen" title="Кухня"><img src="eye.png" style=" position: absolute;  top: 540px; left: 370px;" class="activeImage" /></a>
-    <a href="photo/updated.jpg" id="updated" title="Комната с евроремонтом"><img src="eye.png" style=" position: absolute;  top: 80px; left: 105px;" class="activeImage" /></a>
-    <a href="photo/updated-door.jpg" id="updated-door" title="Комната с евроремонтом"><img src="eye.png" style=" position: absolute;  top: 290px; left: 105px;" class="activeImage" /></a>
-    <a href="photo/out.jpg" id="updated-door" title="Экстерьер"><img src="eye.png" style=" position: absolute;  top: 200px; left: 400px;" class="activeImage" /></a>
-</div>
+    <div id="mainImage" class="centeredImage">
+        <img src="photo/1.jpg" />
+        <a href="http://photosynth.net/preview/view/79027d31-35a5-4488-9b17-ddb88374dc59" id="updatedRoom" title="Панорама комнаты с евроремонтом"><img src="360_icon.png" style=" position: absolute;  top: 138px; left: 90px; height: 38px;" class="activeImage" /></a>
+        <a href="http://photosynth.net/preview/view/3bc888a1-1a7b-4679-87a9-68c875fb4fa6" id="smallRoom" title="Панорама комнаты"><img src="360_icon.png" style=" position: absolute;  top: 480px; left: 95px;" class="activeImage" /></a>
+        <a href="http://photosynth.net/preview/view/ec8c8973-3af0-490a-82e0-374998fcf8e6" id="centralRoom" title="Панорама центральной комнаты"><img src="360_icon.png" style=" position: absolute;  top: 530px; left: 240px;" class="activeImage" /></a>
+        <a href="corridor.html" id="corridor" title="Коридор"><img src="eye.png" style=" position: absolute;  top: 380px; left: 470px;" class="activeImage" /></a>
+        <a href="bath.html" id="bath" title="Санузел"><img src="eye.png" style=" position: absolute;  top: 440px; left: 405px;" class="activeImage" /></a>
+        <a href="kitchen.html" id="kitchen" title="Кухня"><img src="eye.png" style=" position: absolute;  top: 540px; left: 370px;" class="activeImage" /></a>
+        <a href="updated.html" id="updated" title="Комната с евроремонтом"><img src="eye.png" style=" position: absolute;  top: 80px; left: 105px;" class="activeImage" /></a>
+        <a href="updated-door.html" id="updated-door" title="Комната с евроремонтом"><img src="eye.png" style=" position: absolute;  top: 290px; left: 105px;" class="activeImage" /></a>
+        <a href="out.html" id="updated-door" title="Экстерьер"><img src="eye.png" style=" position: absolute;  top: 200px; left: 400px;" class="activeImage" /></a>
+    </div>
 
 <!-- Yandex.Metrika counter -->
 <script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
